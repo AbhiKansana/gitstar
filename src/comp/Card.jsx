@@ -12,7 +12,10 @@ const Card = ({info}) => {
   return (
    
     <Box
+      maxW={'300px'}
+      m='auto'
       p={"1rem"}
+      py='30px'
       boxShadow='rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px'
     >
        <Link href={info.html_url}>
@@ -22,7 +25,7 @@ const Card = ({info}) => {
         src={info.owner.avatar_url}
       />
       </Link>
-      <Text textAlign={"center"} fontWeight="bold" mt="16px">
+      <Text noOfLines={1} textAlign={"center"} fontWeight="bold" mt="16px">
        {info.name}
       </Text>
       <Text textAlign={"center"} fontSize="1.2rem" fontWeight="bold" mt="10px">

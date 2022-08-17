@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <Box>
+    <Box px={'30px'} bg={['blue.300',null,'green.300']}>
       <Flex
         maxW={"600px"}
         m="auto"
         py='50px'
+        alignItems={'center'}
         justifyContent={"space-between"}
+        gap='30px'
+        flexDirection={['column',null,'row']}
       >
         <Link to='/all'>
         <Button

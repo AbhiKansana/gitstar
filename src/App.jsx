@@ -6,7 +6,7 @@ import AllPages from './pages/AllPages';
 function App() {
   return (
     <div className="App">
-     <Box maxW={'80%'} m='auto'>
+     <Box maxW='1000px' m='auto'>
       <AllPages/>
     </Box>
     </div>

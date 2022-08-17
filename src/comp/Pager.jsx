@@ -7,7 +7,7 @@ const Pager = () => {
 
         <Flex m='auto' pb='40px' maxW={'300px'} justifyContent='space-between'>
         <Button colorScheme='blue'>Prev</Button>
-        <Text fontSize='1.25rem'>2</Text>
+        <Text fontSize='1.25rem'>1</Text>
         <Button colorScheme='blue'>Next</Button>
         </Flex>
 
@@ -16,3 +16,5 @@ const Pager = () => {
 }
 
 export default Pager
+
+ 
